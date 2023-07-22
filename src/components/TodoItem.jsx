@@ -14,7 +14,8 @@ const TodoItem = React.forwardRef(
       >
         <button
           onClick={() => updateTodo(id)}
-          className={`flex items-center justify-center rounded-full border-2 h-6 w-6 ${
+          className={`flex items-center justify-center rounded-full border-2 h-6 w-6 hover:border-violet-600 
+          ${
             completed
               ? "bg-gradient-to-r from-blue-400 via-violet-500 to-violet-600"
               : "inline-block"
@@ -25,7 +26,7 @@ const TodoItem = React.forwardRef(
         <p
           className={`grow ${
             completed
-              ? "text-gray-400 dark:text-gray-500"
+              ? "text-gray-400 dark:text-gray-500 line-through"
               : "text-gray-500 dark:text-gray-300"
           }`}
         >
