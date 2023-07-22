@@ -92,6 +92,7 @@ const App = () => {
       md:bg-[url('./assets/images/bg-desktop-light.jpg')] md:dark:bg-[url('./assets/images/bg-desktop-dark.jpg')]"
     >
       <br />
+      <br />
       <Header />
 
       <main className="container mx-auto px-4 md:max-w-xl">
